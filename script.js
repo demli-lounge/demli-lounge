@@ -25,4 +25,4 @@ document.getElementById("openFullMenu").addEventListener("click",()=>openModal("
 closeBtn.addEventListener("click",closeModal);
 modal.addEventListener("click",(e)=>{ if(e.target===modal) closeModal(); });
 document.addEventListener("keydown",(e)=>{ if(e.key==="Escape") closeModal(); });
-document.getElementById("year").textContent = new Date().getFullYear();
+const yearEl=document.getElementById("year"); if(yearEl) yearEl.textContent="2026";

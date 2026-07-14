@@ -1,11 +1,12 @@
-DƏMLİ LOUNGE SAYTI
+DƏMLİ..K LOUNGE — PREMIUM SAYT
 
-GitHub-a yükləmək:
-1. ZIP faylını açın.
-2. İçindəki bütün fayl və qovluqları GitHub reposuna yükləyin.
-3. Settings > Pages bölməsinə keçin.
-4. Source: Deploy from a branch
-5. Branch: main / root
-6. Save düyməsinə basın.
+GITHUB-A YÜKLƏMƏ:
+1. ZIP faylını kompüterdə aç.
+2. İçindəki bütün faylları GitHub repository-yə yüklə.
+3. Settings > Pages bölməsinə gir.
+4. Source: Deploy from a branch.
+5. Branch: main və /(root) seç.
+6. Save et.
 
-Əsas fayl: index.html
+Saytın əsas faylı: index.html
+QR kod sayt linki aktiv olduqdan sonra hazırlanacaq.
