@@ -1,1 +1,100 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Demli Lounge</title><link rel="stylesheet" href="style.css"></head><body><header class="hero"><h1>Demli Lounge</h1><p>Premium Restaurant</p><a href="#menu">Menyu</a></header><section id="menu"><h2>Menyu</h2><div class="cards"><div>🥩 Premium Steak</div><div>🍵 Xüsusi Çay</div><div>🍰 Desert</div></div></section><section><h2>Haqqımızda</h2><p>Qara-qızılı premium atmosfer.</p></section><footer>© 2026 Demli Lounge</footer></body></html>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="Dəmli Lounge — premium lounge, restoran və qəlyan menyusu." />
+  <title>Dəmli Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <nav class="nav">
+      <a href="#home" class="brand">
+        <img src="assets/logo.jpg" alt="Dəmli Lounge loqosu">
+      </a>
+      <div class="nav-links">
+        <a href="#menu">Menyu</a>
+        <a href="#about">Məkan</a>
+        <a href="#contact">Ünvan</a>
+      </div>
+    </nav>
+
+    <div class="hero-content" id="home">
+      <img class="hero-logo" src="assets/logo.jpg" alt="Dəmli Lounge">
+      <p class="eyebrow">LOUNGE • RESTORAN • QƏLYAN</p>
+      <h1>Zövqlü axşamların ünvanı</h1>
+      <p class="hero-text">Rahat atmosfer, dadlı mətbəx və premium xidmət.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#menu">Menyuya bax</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Seyid+Azim+Sirvani+1B+Baku" target="_blank" rel="noopener">Xəritədə aç</a>
+      </div>
+    </div>
+    <a href="#menu" class="scroll-indicator" aria-label="Aşağı keç">⌄</a>
+  </header>
+
+  <main>
+    <section class="section intro" id="about">
+      <div>
+        <span class="section-kicker">DƏMLİ LOUNGE</span>
+        <h2>Rahatlıq və dad bir arada</h2>
+      </div>
+      <p>Qara-qızılı atmosfer, rahat oturacaqlar və dostlarla xoş vaxt keçirmək üçün ideal məkan.</p>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <span class="section-kicker">BİZİM MENYU</span>
+        <h2>Kateqoriyanı seç</h2>
+        <p>Şəkli böyütmək üçün üzərinə toxun.</p>
+      </div>
+
+      <div class="menu-grid">
+        <button class="menu-card" data-image="assets/menu/sorbalar.jpg" data-title="Şorbalar"><img src="assets/menu/sorbalar.jpg" alt="Şorbalar"><span>Şorbalar</span></button>
+        <button class="menu-card" data-image="assets/menu/salatlar.jpg" data-title="Salatlar"><img src="assets/menu/salatlar.jpg" alt="Salatlar"><span>Salatlar</span></button>
+        <button class="menu-card" data-image="assets/menu/isti-yemekler.jpg" data-title="İsti yeməklər"><img src="assets/menu/isti-yemekler.jpg" alt="İsti yeməklər"><span>İsti yeməklər</span></button>
+        <button class="menu-card" data-image="assets/menu/fast-food.jpg" data-title="Fast food"><img src="assets/menu/fast-food.jpg" alt="Fast food"><span>Fast food</span></button>
+        <button class="menu-card" data-image="assets/menu/mezeler.jpg" data-title="Məzələr"><img src="assets/menu/mezeler.jpg" alt="Məzələr"><span>Məzələr</span></button>
+        <button class="menu-card" data-image="assets/menu/cerezler.jpg" data-title="Çərəzlər"><img src="assets/menu/cerezler.jpg" alt="Çərəzlər"><span>Çərəzlər</span></button>
+        <button class="menu-card" data-image="assets/menu/sirniyyatlar.jpg" data-title="Şirniyyatlar"><img src="assets/menu/sirniyyatlar.jpg" alt="Şirniyyatlar"><span>Şirniyyatlar</span></button>
+        <button class="menu-card" data-image="assets/menu/icecekler.jpg" data-title="İçəcəklər"><img src="assets/menu/icecekler.jpg" alt="İçəcəklər"><span>İçəcəklər</span></button>
+        <button class="menu-card wide" data-image="assets/menu/piveler.jpg" data-title="Pivələr"><img src="assets/menu/piveler.jpg" alt="Pivələr"><span>Pivələr</span></button>
+        <button class="menu-card wide" data-image="assets/menu/qelyan.jpg" data-title="Qəlyan"><img src="assets/menu/qelyan.jpg" alt="Qəlyan"><span>Qəlyan</span></button>
+      </div>
+
+      <div class="full-menu-wrap">
+        <button class="btn btn-primary" id="openFullMenu">Tam menyunu aç</button>
+      </div>
+    </section>
+
+    <section class="location-section" id="contact">
+      <div class="location-card">
+        <span class="section-kicker">BİZİ TAP</span>
+        <h2>Seyid Əzim Şirvani küçəsi 1B</h2>
+        <p>Dəmli Lounge-a gəlmək üçün xəritəni aç.</p>
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Seyid+Azim+Sirvani+1B+Baku" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.jpg" alt="Dəmli Lounge">
+    <p>© <span id="year"></span> Dəmli Lounge</p>
+  </footer>
+
+  <div class="modal" id="menuModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Bağla">×</button>
+    <div class="modal-content">
+      <h3 id="modalTitle">Menyu</h3>
+      <img id="modalImage" src="" alt="Menyu">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
